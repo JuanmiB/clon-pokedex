@@ -1,0 +1,71 @@
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------------------------------------------------------- */
+.pokedex-pokemon-pagination-title {
+    display: flex;
+    position: absolute;
+    margin-top: 74px;
+    width: 750px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    ;
+}
+.pokedex-pokemon-pagination-title .nombre{
+    display: flex;
+    position: absolute;
+    margin-top: 74px;
+    width: 50vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.pokedex-pokemon-pagination-title:before {
+    content: " ";
+    position: absolute;
+    height: 50px;
+    width: 75px;
+    background-position: left;
+    background-image: url(la.png);
+    left: -75px;
+}
+.pokedex-pokemon-pagination-title:after {
+    content: " ";
+    position: absolute;
+    height: 50px;
+    width: 75px;
+    background-position: right;
+    background-image: url(la.png);
+    right: -75px;
+}
+/* -------------------------------------------------------------- */
+.contenedorBotones{
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    
+}
+.contenedorBotones .btn{
+width: 625px;
+height: 120px;
+background-color: #a4a4a4;
+border: none;
+border-radius: 2px;
+cursor: pointer;
+transition: 0.2s ease;
+
+
+}
+.contenedorBotones .btn:hover{
+    background-color: #30a7d7;
+    
+}

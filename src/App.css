@@ -1,0 +1,168 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+}
+.cuerpoNegro{
+  display: flex;
+  flex-direction: column;
+  padding: 240px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(../body_bg.png);
+  background-repeat: repeat;
+
+  background-position: center;
+  background-attachment: fixed;
+}
+.cuerpoApp{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 900px;
+  flex-direction: column;
+  background-color: #ffff;
+  padding: 20px;
+  padding-top: 70px;
+} 
+
+.contenedor{
+  display: flex;
+  height: 590px;
+} 
+.contenedorBlanco{
+  background-color: aliceblue;
+  background-image: url(../container_bg.png);
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+}
+.pokeImg{
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 435px;
+  width: 435px;
+}
+.pokeImg img{
+  width: 400px;
+  height: 400px;
+  border-radius: 40%;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 10px;
+  font-size: 112.5%;
+}
+/* ----------------------------------------CARACTERISTICAS-------------------------------------------- */
+.caracteristicas{
+  /* display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-color: #30a7d7;
+  border: solid 1px #30a7d7;
+  border-radius: 10px;
+  height: 230px;
+  width: 100%;
+  font-size: 112.5%;
+  font-weight: 500; */
+ display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-color: #30a7d7;
+  border: solid 1px #30a7d7;
+  border-radius: 10px;
+  height: 230px;
+  width: 100%;
+  font-size: 112.5%;
+
+
+}
+.caracteristicas button{
+width: 20px;
+height: 20px;;
+border: none;
+border-radius: 100px;
+background-color: #30a7d7;
+
+}
+.typeAndWeak{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.typeAndWeak span{
+  display: inline-block;
+  flex-direction: row;
+  width: 120px;
+  border: solid 1px #30a7d7;
+  font-size: 16px;
+  padding: 2px;
+  margin: 2px;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+span{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.botones{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 150px;
+  
+}
+
+/* --------------ARTICULO DE EVOLUCIONES------------------ */
+.arbolEvolutivo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: url(../body_bg.png);
+  width: 850px;
+  border-radius: 5px 5px 5px 40px ;
+  
+}
+
+.evoluciones{
+  display: flex;
+  border-radius: 10px;
+}
+
+.evolucion img{
+width: 170px;
+height: 170px;
+padding: 20px;
+border: #ffff 4px solid;
+border-radius: 100px;
+background-color: rgb(33, 30, 30);
+box-shadow: 0px 8px 5px black;
+transition: all 0.5s ease;
+}
+.evolucion img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}

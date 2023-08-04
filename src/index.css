@@ -1,0 +1,11 @@
+*{
+    font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-image: url(../body_bg.png);
+}
